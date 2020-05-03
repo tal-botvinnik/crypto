@@ -18,7 +18,7 @@ import (
 	"time"
 
 	"golang.org/x/crypto/ed25519"
-	"golang.org/x/crypto/rsa"
+	"github.com/zugzwang/crypto/rsa"
 )
 
 const maxMessageLength = 1 << 10

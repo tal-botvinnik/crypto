@@ -4,8 +4,8 @@ package algorithm
 
 import (
 	"crypto/cipher"
-	"golang.org/x/crypto/eax"
-	"golang.org/x/crypto/ocb"
+	"github.com/zugzwang/crypto/eax"
+	"github.com/zugzwang/crypto/ocb"
 )
 
 // AEADMode defines the Authenticated Encryption with Associated Data mode of

@@ -30,8 +30,8 @@ import (
 	"io"
 	"math/big"
 
-	"golang.org/x/crypto/internal/randutil"
-	"golang.org/x/crypto/rand"
+	"github.com/zugzwang/crypto/internal/randutil"
+	"github.com/zugzwang/crypto/rand"
 )
 
 var bigZero = big.NewInt(0)

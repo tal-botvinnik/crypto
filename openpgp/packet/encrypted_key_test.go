@@ -13,7 +13,7 @@ import (
 	"testing"
 
 	"crypto"
-	"golang.org/x/crypto/rsa"
+	"github.com/zugzwang/crypto/rsa"
 )
 
 func bigFromBase10(s string) *big.Int {

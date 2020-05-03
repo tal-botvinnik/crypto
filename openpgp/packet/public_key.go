@@ -21,13 +21,13 @@ import (
 	"time"
 
 	"golang.org/x/crypto/ed25519"
-	"golang.org/x/crypto/openpgp/ecdh"
-	"golang.org/x/crypto/openpgp/elgamal"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/internal/algorithm"
-	"golang.org/x/crypto/openpgp/internal/ecc"
-	"golang.org/x/crypto/openpgp/internal/encoding"
-	"golang.org/x/crypto/rsa"
+	"github.com/zugzwang/crypto/openpgp/ecdh"
+	"github.com/zugzwang/crypto/openpgp/elgamal"
+	"github.com/zugzwang/crypto/openpgp/errors"
+	"github.com/zugzwang/crypto/openpgp/internal/algorithm"
+	"github.com/zugzwang/crypto/openpgp/internal/ecc"
+	"github.com/zugzwang/crypto/openpgp/internal/encoding"
+	"github.com/zugzwang/crypto/rsa"
 )
 
 type kdfHashFunction byte

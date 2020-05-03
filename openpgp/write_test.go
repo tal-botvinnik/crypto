@@ -13,7 +13,7 @@ import (
 	"testing"
 	"time"
 
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/zugzwang/crypto/openpgp/packet"
 )
 
 const (

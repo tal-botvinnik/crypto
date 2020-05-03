@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/zugzwang/crypto/openpgp/armor"
+	"github.com/zugzwang/crypto/openpgp/errors"
+	"github.com/zugzwang/crypto/openpgp/packet"
 )
 
 func readerFromHex(s string) io.Reader {

@@ -6,8 +6,8 @@ package clearsign
 
 import (
 	"bytes"
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/zugzwang/crypto/openpgp"
+	"github.com/zugzwang/crypto/openpgp/packet"
 	"fmt"
 	"io"
 	"testing"

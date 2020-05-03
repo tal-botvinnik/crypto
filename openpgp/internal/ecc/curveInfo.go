@@ -1,11 +1,11 @@
 package ecc
 
 import (
-	"golang.org/x/crypto/openpgp/internal/encoding"
+	"github.com/zugzwang/crypto/openpgp/internal/encoding"
 	"crypto/elliptic"
 	"bytes"
-	"golang.org/x/crypto/bitcurves"
-	"golang.org/x/crypto/brainpool"
+	"github.com/zugzwang/crypto/bitcurves"
+	"github.com/zugzwang/crypto/brainpool"
 )
 
 type SignatureAlgorithm uint8

@@ -11,7 +11,7 @@ import (
 	_ "crypto/sha512"
 	"testing"
 
-	"golang.org/x/crypto/openpgp/internal/algorithm"
+	"github.com/zugzwang/crypto/openpgp/internal/algorithm"
 )
 
 var (

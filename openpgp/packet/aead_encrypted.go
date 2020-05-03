@@ -9,8 +9,8 @@ import (
 	"encoding/binary"
 	"io"
 
-	"golang.org/x/crypto/openpgp/errors"
-	"golang.org/x/crypto/openpgp/internal/algorithm"
+	"github.com/zugzwang/crypto/openpgp/errors"
+	"github.com/zugzwang/crypto/openpgp/internal/algorithm"
 )
 
 // AEADEncrypted represents an AEAD Encrypted Packet (tag 20, RFC4880bis-5.16).

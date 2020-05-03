@@ -5,9 +5,9 @@ import (
 	"bytes"
 	"crypto"
 	"crypto/rand"
-	"golang.org/x/crypto/openpgp"
-	"golang.org/x/crypto/openpgp/armor"
-	"golang.org/x/crypto/openpgp/packet"
+	"github.com/zugzwang/crypto/openpgp"
+	"github.com/zugzwang/crypto/openpgp/armor"
+	"github.com/zugzwang/crypto/openpgp/packet"
 	mathrand "math/rand"
 	"strings"
 )
